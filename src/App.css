@@ -1,10 +1,18 @@
 .App {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px;
+}
+.App>h3{
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.addScore > button,.addWicket>button,.addBall>button{
+  margin: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
